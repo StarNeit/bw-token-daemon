@@ -1,7 +1,8 @@
 var mongoose = require("mongoose");
 
 const schema = new mongoose.Schema({
-    username: { type: String, required: true },
+    hardCap: { type: String, required: true },
+    totalSupply: { type: String, required: true },
 });
 
-module.exports = mongoose.model("Sample", schema);
+module.exports = mongoose.model("BwcState", schema);

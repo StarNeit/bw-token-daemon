@@ -5,12 +5,6 @@ var HDWalletProvider = require("truffle-hdwallet-provider");
 var BwcState = require('../models/BwcState');
 
 function token(){
-    console.log("\n----- Running Token Daemon Task -----");
-
-    // var obj = new Sample();
-    // obj.username = "hello!";
-    // obj.save();
-
     let l_hardCap, l_totalSupply;
 
     /**

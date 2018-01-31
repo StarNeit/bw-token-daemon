@@ -9,7 +9,7 @@ function token(){
     /**
      *  Get Tokens Info from Smart Contract
      */
-    const web3 = new Web3(new Web3.providers.HttpProvider("https://ropsten.infura.io/VaxMZqBPDeLCJNBAsNN1"));
+    const web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/VaxMZqBPDeLCJNBAsNN1"));
 
     const token = contract(BWCToken);
     token.setProvider(web3.currentProvider);
